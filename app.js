@@ -3,10 +3,9 @@
 'use strict';
 
 import CRUDStore from './flux-imm/CRUDStore';
-import Logo from './components/Logo';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Whinepad from './components/Whinepad';
+import Cities from './components/Cities';
 import schema from './schema';
 
 CRUDStore.init(schema);
@@ -14,9 +13,9 @@ CRUDStore.init(schema);
 ReactDOM.render(
   <div>
     <div className="app-header">
-      <Logo /> Welcome to Whinepad!
+      <Logo /> Welcome to Cities!
     </div>
-    <Whinepad />
+    <Cities/>
   </div>,
   document.getElementById('pad')
 );
