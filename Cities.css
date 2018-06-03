@@ -1,0 +1,22 @@
+.Cities.CitiesToolbar {
+  margin: 40px;
+}
+
+.Cities.CitiesToolbarAdd {
+  float: left;
+}
+
+.Cities .CitiesToolbarSearch {
+  float: right;
+}
+
+.Cities .CitiesToolbarAddButton {
+  font-size: 32px;
+}
+
+.Cities.Cities.Datagrid {
+  clear: both;
+  margin: 40px;
+  padding-top: 20px;
+}
+
