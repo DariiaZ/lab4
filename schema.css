@@ -1,0 +1,16 @@
+.schema-name {
+  color: #f51192;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.schema-rating {
+  color:#f51192;
+  font-size: 16px;
+}
+
+.schema-actions {
+  color: #fe3;
+  font-size: 16px;
+  font-weight: bold;
+}
